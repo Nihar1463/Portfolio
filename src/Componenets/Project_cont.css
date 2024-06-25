@@ -1,0 +1,23 @@
+.project{
+padding-bottom: 25vh;
+}
+.fillter-buttons {
+  margin: 2rem;
+  text-align: center;
+}
+.fillter-buttons .btn {
+  /* letter-spacing: .4px; */
+  margin-left: 1.5rem;
+}
+.portfolio-gallery {
+  /* display: grid; */
+  /* height: 650px; */
+  display: flex;
+  flex-wrap: wrap;
+  /* width:500px ; */
+  /* display: block; */
+  /* grid-template-columns: repeat(auto-fill, minmax(400px, 1fr)); */
+  gap: 3rem; 
+  justify-content: center;
+  align-items: center;
+}
