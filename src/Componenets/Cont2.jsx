@@ -1,11 +1,13 @@
 import React from "react";
 
 import "./Cont2.css";
-import I1 from "../assets/DDD_0885.jpg";
-import I2 from "../assets/1.png";
-import I3 from "../assets/111.jpg";
-import I4 from "../assets/111-removebg-preview.png";
-import I5 from "../assets/ppphtto.jpg";
+// import I1 from "../assets/DDD_0885.jpg";
+// import I2 from "../assets/1.png";
+// import I3 from "../assets/111.jpg";
+// import I4 from "../assets/111-removebg-preview.png";
+// import I5 from "../assets/ppphtto.jpg";
+// import I6 from "../assets/ppphtto11.jpg";
+import I7 from "../assets/pp1.jpg";
 import { motion } from "framer-motion";
 
 const Cont2 = () => {
@@ -23,15 +25,15 @@ const Cont2 = () => {
         <p>
           Creative and detail-oriented Front-End Developer with expertise in
           HTML, CSS, JavaScript, and React. Skilled in transforming design
-          mockups into responsive and user-friendly web applications. Committed
+          mockups into responsive and user-friendly Websites. Committed
           to delivering high-quality code and exceptional user experiences.
         </p>
 
         <div className="social-icon">
-          <a href="#">
+          <a href="https://www.linkedin.com/in/niharbijva146">
             <i class="bx bxl-linkedin"></i>
           </a>
-          <a href="#">
+          <a href="https://github.com/Nihar1463">
             <i class="bx bxl-github"></i>
           </a>
           <a href="#">
@@ -55,7 +57,7 @@ const Cont2 = () => {
         </div>
       </motion.div>
       <div className="home-img">
-        <img src={I5} alt="" />
+        <img src={I7} alt="" />
       </div>
     </section>
   );

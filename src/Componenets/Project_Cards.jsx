@@ -14,7 +14,7 @@ const Project_Cards = (props) => {
         <div className="port-content">
           <h3>{props.project.title}</h3>
           <p>{props.project.description}</p>
-          <a href="#">
+          <a href={props.project.link}>
             <i class="bx bx-link-external"></i>
           </a>
         </div>

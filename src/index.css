@@ -18,10 +18,8 @@
 html {
   font-size: 60%;
   overflow-x: hidden;
-  
 }
 body {
   background-color: var(--bg-color);
   color: var(--text-color);
-  
 }

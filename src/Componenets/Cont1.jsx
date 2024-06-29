@@ -11,14 +11,14 @@ const Cont1 = () => {
         <a href="#home" className="logo">
           Nihar <span>Bijva</span>
         </a>
-        <i class="bx bx-menu" id="menu-icon"></i>
+        {/* <i class='bx bx-menu' style={{color:'#fff7f7'  }}></i> */}
         <nav className="navbar">
           <a href="#home" className="active">
             Home
           </a>
           <a href="#education">Education</a>
           <a href="#project">Project</a>
-          <a href="#service">About Me</a>
+          <a href="#about_me">About Me</a>
           <a href="#contact">Contact</a>
         </nav>
       </motion.header>

@@ -1,5 +1,7 @@
 .experience {
   background-color: var(--bg-color);
+  background: var(--second-bg-color);
+
   color: rgb(255, 255, 255);
   min-height: 70vh;
 }

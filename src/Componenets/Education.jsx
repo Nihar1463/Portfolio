@@ -7,40 +7,43 @@ const Education = () => {
       <div className="timeline-items">
         <div className="timeline-item">
           <div className="timeline-dot"></div>
-          <div className="timeline-date">2020</div>
-          <div className="timeline-content">
-            <h3>High School</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Distinctio blanditiis illum rerum nemo. Alias, quas!
-            </p>
-          </div>
-        </div>
-
-        <div className="timeline-item">
-          <div className="timeline-dot"></div>
           <div className="timeline-date">2024</div>
           <div className="timeline-content">
             <h3>Bachelor Of Engineering</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Distinctio blanditiis illum rerum nemo. Alias, quas!
+              Information Technology <b>|</b><br />
+              Gandhinagar Institute Of Technology <b>|</b> <br />
+              <b>CGPA : </b>8.43 
             </p>
           </div>
         </div>
 
         <div className="timeline-item">
           <div className="timeline-dot"></div>
-          <div className="timeline-date">present</div>
+          <div className="timeline-date">2020</div>
           <div className="timeline-content">
-            <h3>Internship</h3>
+            <h3>12th Science</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Distinctio blanditiis illum rerum nemo. Alias, quas!
+            Jay somnath Higher Secondary School Ahmedabad. <b>|</b><br />
+            <b>Board : </b>GSHSEB (Gujarat)<b> |</b><br />
+              <b>Percentage : </b>69%
             </p>
           </div>
         </div>
+
         <div className="timeline-item">
+          <div className="timeline-dot"></div>
+          <div className="timeline-date">2018</div>
+          <div className="timeline-content">
+            <h3>10th Standard</h3>
+            <p>
+            Jay somnath Higher Secondary School Ahmedabad. <b>|</b><br />
+            <b>Board : </b>GSEB  (Gujarat) <b>|</b><br />
+              <b>Percentage : </b>78%
+            </p>
+          </div>
+        </div>
+        {/* <div className="timeline-item">
           <div className="timeline-dot"></div>
           <div className="timeline-date">present</div>
           <div className="timeline-content">
@@ -50,7 +53,7 @@ const Education = () => {
               Distinctio blanditiis illum rerum nemo. Alias, quas!
             </p>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );

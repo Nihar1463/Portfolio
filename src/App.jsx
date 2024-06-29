@@ -6,6 +6,9 @@ import Experience from "./Componenets/Experience";
 import Project_Cards from "./Componenets/Project_Cards";
 import Project_cont from "./Componenets/Project_cont";
 import Technology from "./Componenets/Technology";
+import Contact from "./Componenets/Contact";
+import Footer from "./Componenets/Footer";
+import About_me from "./Componenets/About_me";
 const App = () => {
   return (
     <>
@@ -13,12 +16,15 @@ const App = () => {
       <Cont2/>
       <Education/>
       <Experience/>
-      {/* <Project_Cards/> */}
+      <About_me/>
+      
       <Project_cont/>
       <Technology/>
+      <Contact/>
+      <Footer/>
     </>
 
-    
+
   );
 };
 

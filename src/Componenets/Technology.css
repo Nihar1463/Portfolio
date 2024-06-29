@@ -1,6 +1,6 @@
 .technology {
   background-color: var(--second-bg-color);
-  min-height: 70vh;
+  /* min-height: 70vh; */
 }
 .technology-box {
   background-size: cover;

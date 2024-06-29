@@ -1,0 +1,29 @@
+.contact .main1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.contact-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* width: 300px; */
+  height: 50px;
+  /* background-color: antiquewhite; */
+  font-size: 1.5rem;
+  border: 2px solid var(--main-color);
+  border-radius: 10px 20px;
+  margin-bottom: 15px;
+  padding: 10px 15px;
+  transition: .4s ease-in-out;
+  cursor: pointer;
+}
+.contact-info:hover{
+  transform: scale(1.05);
+    box-shadow: 0 0 25px var(--main-color);
+}
+.contact-info a{
+    text-decoration: none;
+    color: white;
+}

@@ -1,5 +1,8 @@
 .project{
 padding-bottom: 25vh;
+padding-top: 10vh;
+/* background: var(--second-bg-color); */
+
 }
 .fillter-buttons {
   margin: 2rem;

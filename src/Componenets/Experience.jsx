@@ -9,14 +9,19 @@ const Experience = () => {
           <div className="experience-box">
             <div className="experience-info">
               <h4>
-                Frontend Developer{" "}
+                Frontend Developer | ReactJs | Internship
                 <span className="company">- Skytech Pvt. Ltd.</span>
               </h4>
               <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Distinctio voluptatibus sit consectetur laborum odio omnis!
-                Numquam ea libero saepe animi Lorem ipsum dolor sit amet
-                consectetur adipisicing elit. Cum, tempora.
+                • During this internship, I mainly focused on web development
+                with React.js, a leading JavaScript library for building user
+                interfaces. <br />
+                • Throughout the internship, I honed my skills in React.js,
+                including proficiency in componentbased Architecture, State
+                management, API and Routing. Also I gained practical experience in
+                developing dynamic and interactive web applications. <br />•
+                Practice responsive design and version control to enhance my
+                skills and collaborate effectively in real-world projects.
               </p>
               <p>
                 <b>Technologies : </b>
