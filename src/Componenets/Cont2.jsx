@@ -30,10 +30,10 @@ const Cont2 = () => {
         </p>
 
         <div className="social-icon">
-          <a href="https://www.linkedin.com/in/niharbijva146">
+          <a href="https://www.linkedin.com/in/niharbijva146" target="blank">
             <i class="bx bxl-linkedin"></i>
           </a>
-          <a href="https://github.com/Nihar1463">
+          <a href="https://github.com/Nihar1463" target="blank">
             <i class="bx bxl-github"></i>
           </a>
           <a href="#">
