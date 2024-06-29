@@ -13,18 +13,16 @@ const App = () => {
   return (
     <>
       <Cont1 />
-      <Cont2/>
-      <Experience/>
-      <Project_cont/>
-      <Technology/>
-      <Education/>
-      <About_me/>
-      
-      <Contact/>
-      <Footer/>
+      <Cont2 />
+      <Experience />
+      <Project_cont />
+      <Technology />
+      <About_me />
+      <Education />
+
+      <Contact />
+      <Footer />
     </>
-
-
   );
 };
 
