@@ -2,7 +2,7 @@ import React from "react";
 import "./Experience.css";
 const Experience = () => {
   return (
-    <section className="experience">
+    <section className="experience" id="experience">
       <h2 className="heading">Experience</h2>
       <div className="exp-con1">
         <div className="experience-container">
@@ -18,8 +18,8 @@ const Experience = () => {
                 interfaces. <br />
                 • Throughout the internship, I honed my skills in React.js,
                 including proficiency in componentbased Architecture, State
-                management, API and Routing. Also I gained practical experience in
-                developing dynamic and interactive web applications. <br />•
+                management, API and Routing. Also I gained practical experience
+                in developing dynamic and interactive web applications. <br />•
                 Practice responsive design and version control to enhance my
                 skills and collaborate effectively in real-world projects.
               </p>

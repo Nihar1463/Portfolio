@@ -1,22 +1,20 @@
-.container1 {
-  width: 100%;
-  height: 500px;
+  .container1 {
   /* background-color: antiquewhite; */
   display: flex;
+  gap: 5rem;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 .cont1_left {
-  width: 50%;
-  height: 100%;
-  /* background-color: aqua; */
-  /* position: relative; */
-  padding: 70px;
-  /* margin-right: 10px; */
+  /* background-color: rgb(255, 136, 0); */
+  
+  /* padding: 70px 30px 70px 70px; */
+  
 }
 .cont1_left .photo {
   width: 350px;
   height: 350px;
   /* background-color: bisque; */
-  position: absolute;
   border-right: 1px solid var(--main-color);
   border-bottom: 4px solid var(--main-color);
   border-radius: 25px;
@@ -34,22 +32,21 @@
 }
 
 .cont1_right {
-  width: 60%;
-  height: 80%;
-  /* background-color: rgb(82, 47, 62); */
-  padding: 60px 50px;
+ max-width: 700px;
+}
+.cont1_right .info {
+  /* background-color: aqua; */
   border: 2px solid var(--main-color);
   border-radius: 20px 50px;
   transition: 0.3s ease-in-out;
-  margin-top: 45px;
+  padding: 30px 60px 30px 40px;
   
 }
-.cont1_right:hover {
+.info:hover {
   box-shadow: 0 0 25px var(--main-color);
 }
 .cont1_right h3 {
   font-size: 32px;
-  /* padding-bottom: 15px; */
 }
 .cont1_right span {
   text-shadow: 0 0 20px var(--main-color);
@@ -58,10 +55,58 @@
 
 .cont1_right p {
   font-size: 15px;
-  padding-bottom: 15px;
-  padding: 10px 40px 0 0;
-  /* text-align: left; */
+  padding: 15px 0px;
+  
+
+  text-align: justify;
 }
-.cont1_right .btn{
+.cont1_right .btn {
   margin-top: 20px;
+}
+
+@media(max-width:600px)
+{
+  .About_me{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+  }
+  .About_me .heading{
+    font-size: 4.2rem;
+  }
+  .container1{
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .cont1_left {
+    /* background-color: aqua; */
+    
+    padding: 30px;
+
+  }
+  .cont1_left .photo {
+    width: 240px;
+    height: 240px;
+  }
+ 
+  .cont1_right .info{
+    padding: 20px;
+  }
+  .cont1_right h3 {
+    font-size: 32.7px;
+    /* line-height: 40px; */
+  }
+  .cont1_right span {
+   
+    font-size: 23px;
+    
+  }
+  .cont1_right p {
+    font-size: 13px;
+    line-height: 22px;
+
+  
+    
+  }
 }

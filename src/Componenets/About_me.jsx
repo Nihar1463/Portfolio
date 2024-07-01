@@ -6,7 +6,7 @@ const About_me = () => {
   return (
     <section className="About_me" id="about_me">
       <h2 className="heading">
-        About <span>Me</span>{" "}
+        About <span>Me</span>
       </h2>
       <div className="container1">
         <div className="cont1_left">
@@ -15,12 +15,26 @@ const About_me = () => {
           </div>
         </div>
         <div className="cont1_right">
-          <h3>Nihar Bijva <span>-Frontend Developer</span> </h3>
-          <p>
-          I am a dedicated Front-end developer with a passion for crafting engaging and intuitive web experiences. With expertise in HTML, CSS, JavaScript, and frameworks like React . I bring designs to life with clean, efficient, and responsive code. I thrive on solving complex problems and continuously learning new technologies to stay ahead in the fast-evolving field of web development. 
-          </p>
-          <p><b>Experience :  </b> 6months +</p>
-          <a href="#contact"><button className="btn">Contact Me</button></a>
+          <div className="info">
+            <h3>
+              Nihar Bijva <span>-Frontend Developer</span>
+            </h3>
+            <p>
+              I am a dedicated Front-end developer with a passion for crafting
+              engaging and intuitive web experiences. With expertise in HTML,
+              CSS, JavaScript, and frameworks like React . I bring designs to
+              life with clean, efficient, and responsive code. I thrive on
+              solving complex problems and continuously learning new
+              technologies to stay ahead in the fast-evolving field of web
+              development.
+            </p>
+            <p>
+              <b>Experience : </b> 6 months +
+            </p>
+            <a href="#contact">
+              <button className="btn">Contact Me</button>
+            </a>
+          </div>
         </div>
       </div>
     </section>

@@ -15,30 +15,22 @@
   color: white;
 }
 .experience-container {
-  width: 850px;
-  /* height: 250px; */
-  background-color: rgb(118, 118, 187);
-  /* text-align: center; */
   border-radius: 10px;
   background: var(--bg-color);
-  
-/* box-shadow: 0 8px 32px 0 rgba(135, 235, 241, 0.37); */
-box-shadow: 0 0 10px var(--main-color);
-backdrop-filter: blur( 8.5px );
--webkit-backdrop-filter: blur( 8.5px );
-border-radius: 10px 50px;
-border: 3px solid var(--main-color);
-transition: 0.3s ease-in-out;
 
-
+  box-shadow: 0 0 10px var(--main-color);
+  backdrop-filter: blur(8.5px);
+  -webkit-backdrop-filter: blur(8.5px);
+  border-radius: 10px 50px;
+  border: 3px solid var(--main-color);
+  transition: 0.3s ease-in-out;
 }
 .experience-box {
-    padding: 15px;
-
+  padding: 35px;
 }
-.experience-container:hover{
-    transform: scale(1.05);
-    box-shadow: 0 0 25px var(--main-color);
+.experience-container:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 25px var(--main-color);
 }
 .experience-box h4 {
   font-size: 30px;
@@ -46,31 +38,54 @@ transition: 0.3s ease-in-out;
   display: flex;
   align-items: center;
   /* justify-content: center; */
-  
 }
 .experience-box .company {
-    color: var(--main-color);
-    font-size: 15px;
-    padding-left: 5px;
+  color: var(--main-color);
+  font-size: 18px;
+  padding-left: 5px;
   text-shadow: 0 0 25px var(--main-color);
-
 }
 .experience-box p {
-    margin-top: 15px;
-    margin-bottom: 15px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size: 16px;
+  text-align: left;
+  line-height: 27px;
+}
+.experience-box .duration {
+  text-align: left;
+  margin-top: 15px;
   font-size: 15px;
-  text-align: justify;
+  /* color: black; */
+  display: flex;
+  align-items: center;
 }
-.experience-box .duration
-{
-    text-align: left;
-    margin-top: 15px;
-    font-size: 15px;
-    /* color: black; */
+.experience-box i {
+  font-size: 25px;
+}
+@media (max-width: 600px) {
+  .experience {
+    display: block;
+  }
+  .experience .heading {
+    font-size: 4.2rem;
+  }
+  .experience-box {
+    padding: 25px;
+  }
+  .experience-box .company {
+    margin-right: 83px;
+    font-size: 13px;
+  }
+  .experience-box h4 {
+    font-size: 19.5px;
     display: flex;
-    align-items: center;
-
-}
-.experience-box i{
-    font-size: 25px;
+    flex-direction: column;
+  }
+  .experience-box p {
+    font-size: 12.5px;
+    text-align: justify;
+    line-height: 22px;
+    
+  }
 }

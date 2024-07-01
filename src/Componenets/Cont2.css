@@ -1,8 +1,6 @@
 section {
   /* min-height: 100vh; */
   padding: 5rem 12% 10rem;
-
-  
 }
 
 .home {
@@ -20,8 +18,6 @@ section {
   text-align: left;
   justify-content: center;
   margin-top: 3rem;
-  order: none;
-  
 }
 span {
   color: var(--main-color);
@@ -40,9 +36,6 @@ span {
 
 .home-img {
   border-radius: 50%;
-  order: none;
-  
-  
 }
 .home-img img {
   position: relative;
@@ -54,7 +47,6 @@ span {
   cursor: pointer;
   transition: 0.4s ease-in-out;
   transform: scale(1.1);
-  
 }
 .home-img img:hover {
   box-shadow: 0 0 15px var(--main-color), 0 0 25px var(--main-color),
@@ -168,7 +160,6 @@ span {
   81%,
   100% {
     content: "Frontend Developer.";
-
   }
 }
 @keyframes typing {
@@ -197,44 +188,54 @@ span {
   }
 }
 
+@media (max-width: 600px) {
+  .home {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    /* justify-content: center; */
+  }
+  .home-content {
+    /* max-width:300px; */
+  }
+  .home .home-content:first-child {
+    order: 2;
+  }
+  .home-content h3 {
+    margin-bottom: 1rem;
+    margin-top: 0.5rem;
+    font-size: 3rem;
+  }
+  .home-content h1 {
+    font-size: 5.1rem;
+  }
+  .home-content p {
+    font-size: 1.4rem;
+  }
+  .text-animation {
+   
+    max-width: 300px;
+  }
 
-@media (max-width:400px){
- .home{
-    display: none;
-  }
-  .home{
-    display: block;
-  }
-  .home-content{
-   order: 1;
-  }
   .text-animation span::after {
     height: 50%;
+  }
 
-  }
-  .home-img{
-    order: 0;
-  }
   .home-img img {
     border-radius: 50%;
-    width: 300px;
-    height:300px;
+    width: 230px;
+    height: 230px;
     margin-top: 20px;
-    
   }
   .social-icon a {
-   
-    width: 4.5rem;
-    height: 4.5rem;
-    font-size: 2.3rem;
-    
+    width: 4rem;
+    height: 4rem;
+    font-size: 2rem;
   }
   .btn {
-    
-    padding: 1rem 1.8rem;
+    padding: 1rem 1.5rem;
     border-radius: 4rem;
-    font-size: 1.3rem;
-   
+    font-size: 1.2rem;
   }
 
   @keyframes typing {
@@ -259,8 +260,7 @@ span {
     65%,
     80%,
     85% {
-      width: calc(100% + 100px);
+      width: calc(100% + 82px);
     }
   }
-
 }

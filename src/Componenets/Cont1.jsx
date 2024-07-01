@@ -1,12 +1,36 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Cont1.css";
 import { motion } from "framer-motion";
+import Nav_mobile from "./Nav_mobile";
+
 const Cont1 = () => {
+  const [isMenuOpen, setIsMenuOpen] = useState(true);
+
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen);
+    console.log("hhhhgdhs");
+  };
+  const handleScroll = (sectionId) => {
+    if (isMenuOpen) {
+      setIsMenuOpen(false);
+    }
+    document.getElementById(sectionId).scrollIntoView({ behavior: "smooth" });
+  };
+
   return (
     <>
-      <motion.header className="header" initial={{ opacity: 0, y: -100 }}
-      transition={{duration:1}}
-      animate={{opacity:1,y:0}}
+      {/* mobile navbar  */}
+
+      {isMenuOpen && (
+        <Nav_mobile isOpen={isMenuOpen} setIsMenuOpen={setIsMenuOpen} />
+      )}
+
+      {/* laptop nav bar*/}
+      <motion.header
+        className="header"
+        initial={{ opacity: 0, y: -100 }}
+        transition={{ duration: 1 }}
+        animate={{ opacity: 1, y: 0 }}
       >
         <a href="#home" className="logo">
           Nihar <span>Bijva</span>
@@ -22,6 +46,18 @@ const Cont1 = () => {
           <a href="#contact">Contact</a>
         </nav>
       </motion.header>
+
+      {/* <!-- Mobile Navbar Toggle Button --> */}
+        
+      <div class="navbar-toggle-container">
+        <button onClick={toggleMenu} class="navbar-toggle-button">
+          {isMenuOpen ? (
+            <i class="bx bx-x" style={{color:"#ffffff"}}></i>
+          ) : (
+            <i class="bx bx-menu" style={{ color: "#fff7f7" }}></i>
+          )}
+        </button>
+      </div>
     </>
   );
 };

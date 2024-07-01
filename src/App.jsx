@@ -9,9 +9,12 @@ import Technology from "./Componenets/Technology";
 import Contact from "./Componenets/Contact";
 import Footer from "./Componenets/Footer";
 import About_me from "./Componenets/About_me";
+import Nav_mobile from "./Componenets/Nav_mobile";
 const App = () => {
   return (
     <>
+
+     
       <Cont1 />
       <Cont2 />
       <Experience />
@@ -19,7 +22,6 @@ const App = () => {
       <Technology />
       <About_me />
       <Education />
-
       <Contact />
       <Footer />
     </>

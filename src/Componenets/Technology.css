@@ -54,3 +54,32 @@ align-items: center;
   font-size: 1.5rem;
   font-weight: 400;
 }
+@media(max-width:600px)
+{
+  .technology{
+    display: block;
+  }
+  .technology .heading{
+    font-size: 4.2rem;
+  }
+  .wrapper{
+    gap: 1.8rem;
+    
+  }
+  .technology-item{
+    height: 130px;
+    width: 150px;
+   
+    padding: 15px 10px;
+  }
+  .technology-box {
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: stretch;
+    flex-direction: column;
+  }
+  .technology-item i {
+    font-size: 6.5rem;
+  }
+}
