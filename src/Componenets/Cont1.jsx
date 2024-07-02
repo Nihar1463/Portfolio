@@ -4,18 +4,18 @@ import { motion } from "framer-motion";
 import Nav_mobile from "./Nav_mobile";
 
 const Cont1 = () => {
-  const [isMenuOpen, setIsMenuOpen] = useState(true);
+  const [isMenuOpen, setIsMenuOpen] = useState();
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
-    console.log("hhhhgdhs");
+    
   };
-  const handleScroll = (sectionId) => {
-    if (isMenuOpen) {
-      setIsMenuOpen(false);
-    }
-    document.getElementById(sectionId).scrollIntoView({ behavior: "smooth" });
-  };
+  // const handleScroll = (sectionId) => {
+  //   if (isMenuOpen) {
+  //     setIsMenuOpen(false);
+  //   }
+  //   document.getElementById(sectionId).scrollIntoView({ behavior: "smooth" });
+  // };
 
   return (
     <>

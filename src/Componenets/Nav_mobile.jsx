@@ -27,8 +27,8 @@ const Nav_mobile = ({ isOpen, setIsMenuOpen }) => {
             </a>
           </li>
           <li class="menu-item">
-            <a class="menu-link" onClick={()=>handleScroll("technology")}>
-              skill
+            <a class="menu-link" onClick={()=>handleScroll("about_me")}>
+             About Us
             </a>
           </li>
         </ul>
