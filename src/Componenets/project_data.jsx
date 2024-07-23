@@ -38,7 +38,7 @@ export let data = [
     img: I16,
     title: "Portrait Renovation.inc | ReactJS ",
     description:
-      "Developed the Hpme page of Portrait Renovation.inc, Portrait Renovation is a pixel-perfect website for home interior design, built with React JS, offering a seamless user experience for exploring and customizing beautiful living spaces.",
+      "Developed the Home page of Portrait Renovation.inc, Portrait Renovation is a pixel-perfect website for home interior design, built with React JS, offering a seamless user experience for exploring and customizing beautiful living spaces.",
     link: "https://nihar1463.github.io/Portrait-Renovation.inc/",
   },
   // {
