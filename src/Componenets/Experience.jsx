@@ -30,7 +30,7 @@ const Experience = () => {
                 </span>
               </p>
               <p className="duration">
-                <i class="bx bxs-calendar"></i> : Jan-2024 to Present
+                <i class="bx bxs-calendar"></i> : Jan-2024 to July-2024
               </p>
             </div>
           </div>
