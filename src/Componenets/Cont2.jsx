@@ -13,9 +13,12 @@ import { motion } from "framer-motion";
 const Cont2 = () => {
   return (
     <section className="home" id="home">
-      <motion.div className="home-content" initial={{ opacity: 0, x: -500 }}
-      transition={{duration:1.5}}
-      animate={{opacity:1,x:0}}>
+      <motion.div
+        className="home-content"
+        initial={{ opacity: 0, x: -500 }}
+        transition={{ duration: 1.5 }}
+        animate={{ opacity: 1, x: 0 }}
+      >
         <h1>
           Hi,It's <span>Nihar</span>
         </h1>
@@ -25,8 +28,8 @@ const Cont2 = () => {
         <p>
           Creative and detail-oriented Front-End Developer with expertise in
           HTML, CSS, JavaScript, and React. Skilled in transforming design
-          mockups into responsive and user-friendly Websites. Committed
-          to delivering high-quality code and exceptional user experiences.
+          mockups into responsive and user-friendly Websites. Committed to
+          delivering high-quality code and exceptional user experiences.
         </p>
 
         <div className="social-icon">
@@ -45,7 +48,7 @@ const Cont2 = () => {
         </div>
 
         <div className="btn-group">
-          <a href="Nihar Bijva CV.pdf" className="btn" download="Nihar Bijva CV">
+          <a href="Nihar Bijva.pdf" className="btn" download="Nihar Bijva CV">
             Dowmload CV <i class="bx bx-download"></i>
           </a>
           <a href="#contact" className="btn">
