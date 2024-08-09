@@ -22,11 +22,10 @@ const About_me = () => {
             <p>
               I am a dedicated Front-end developer with a passion for crafting
               engaging and intuitive web experiences. With expertise in HTML,
-              CSS, JavaScript, and frameworks like React . I bring designs to
-              life with clean, efficient, and responsive code. I thrive on
-              solving complex problems and continuously learning new
-              technologies to stay ahead in the fast-evolving field of web
-              development.
+              CSS, JavaScript and ReactJS . I bring designs to life with clean,
+              efficient, and responsive code. I thrive on solving complex
+              problems and continuously learning new technologies to stay ahead
+              in the fast-evolving field of web development.
             </p>
             <p>
               <b>Experience : </b> 6 months +
