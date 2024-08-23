@@ -23,7 +23,7 @@ const Cont2 = () => {
           Hi,It's <span>Nihar</span>
         </h1>
         <h3 className="text-animation">
-          I'm a <span></span>
+          I'm a <span>Frontend Developer.</span>
         </h3>
         <p>
           Creative and detail-oriented Front-End Developer with expertise in
