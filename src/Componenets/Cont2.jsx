@@ -48,7 +48,11 @@ const Cont2 = () => {
         </div>
 
         <div className="btn-group">
-          <a href="Nihar Bijva Resume.pdf" className="btn" download="Nihar Bijva CV">
+          <a
+            href="Nihar Bijva Resume 1.pdf"
+            className="btn"
+            download="Nihar Bijva CV"
+          >
             Dowmload CV <i class="bx bx-download"></i>
           </a>
           <a href="#contact" className="btn">
