@@ -28,7 +28,7 @@ const About_me = () => {
               in the fast-evolving field of web development.
             </p>
             <p>
-              <b>Experience : </b> 6 months +
+              <b>Experience : </b> 4 months +
             </p>
             <a href="#contact">
               <button className="btn">Contact Me</button>
