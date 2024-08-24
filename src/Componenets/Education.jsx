@@ -19,7 +19,6 @@ const Education = () => {
               </p>
             </div>
           </div>
-
           <div className="timeline-item">
             <div className="timeline-dot"></div>
             <div className="timeline-date">2020</div>
