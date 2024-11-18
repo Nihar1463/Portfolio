@@ -27,7 +27,7 @@ const Cont2 = () => {
         </h3>
         <p>
           Creative and detail-oriented Front-End Developer with expertise in
-          HTML, CSS, JavaScript, and React. Skilled in transforming design
+          HTML, CSS, JavaScript, and ReactJS. Skilled in transforming design
           mockups into responsive and user-friendly Websites. Committed to
           delivering high-quality code and exceptional user experiences.
         </p>
@@ -53,7 +53,7 @@ const Cont2 = () => {
             className="btn"
             download="Nihar Bijva CV"
           >
-            Dowmload CV <i class="bx bx-download"></i>
+            Download CV <i class="bx bx-download"></i>
           </a>
           <a href="#contact" className="btn">
             Hire Me
